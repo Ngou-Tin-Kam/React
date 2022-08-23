@@ -1,0 +1,27 @@
+[
+    {
+      "name": "Crisps",
+      "cost": 3.00,
+      "quantity": 50
+    },
+    {
+      "name": "Sandwich",
+      "cost": 7.00,
+      "quantity": 60
+    },
+    {
+      "name": "Energy Drink",
+      "cost": 5.00,
+      "quantity": 70
+    },
+    {
+      "name": "Magazine",
+      "cost": 2.00,
+      "quantity": 10
+    },
+    {
+      "name": "Newspaper",
+      "cost": 1.00,
+      "quantity": 10
+    }
+]
