@@ -22,7 +22,6 @@ const ProductSearcher = () => {
         <br/>
         {filteredList.map(product => (<Products key={product.name} name={product.name} cost={product.cost} quantity={product.quantity}/>
         ))}
-
         </>
     );
     

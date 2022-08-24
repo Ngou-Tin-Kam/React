@@ -1,11 +1,11 @@
 import "./App.css";
-import ProductSearcher from "./components/productSearcher/ProductSearcher";
+import Basket from "./components/basket/basket";
 
 function App() {
   return (
     <div className="App">
         <main>
-          <ProductSearcher/>
+          <Basket/>
         </main>
     </div>
   );
