@@ -1,11 +1,11 @@
 import "./App.css";
-import ReadMoreMessage from "./components/hooks/ReadMoreMessage";
+import DataRequests from "./components/dataRequestsWithExpressBackend/DataRequests";
 
 function App() {
   return (
     <div className="App">
         <main>
-          <ReadMoreMessage/>
+          <DataRequests/>
         </main>
     </div>
   );
