@@ -1,11 +1,11 @@
 import "./App.css";
-import Basket from "./components/basket/basket";
+import ReadMoreMessage from "./components/hooks/ReadMoreMessage";
 
 function App() {
   return (
     <div className="App">
         <main>
-          <Basket/>
+          <ReadMoreMessage/>
         </main>
     </div>
   );
