@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
-import Home from "./components/dataRequestsWithAPI/Home";
-import FilmDetails from "./components/dataRequestsWithAPI/FilmDetails";
+import Home from "./components/dataRequestsWithExpressBackend/Home";
+import EditDog from "./components/dataRequestsWithExpressBackend/EditDog";
 
 function App() {
   return (
@@ -10,7 +10,7 @@ function App() {
         <BrowserRouter>
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/film/:id" element={<FilmDetails />} />
+            <Route path="/dog/:id" element={<EditDog />} />
           </Routes>
         </BrowserRouter>
       </main>
