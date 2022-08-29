@@ -1,6 +1,5 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import "./App.css";
-
 import Home from "./components/dataRequestsWithAPI/Home";
 import FilmDetails from "./components/dataRequestsWithAPI/FilmDetails";
 
@@ -12,7 +11,6 @@ function App() {
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/film/:id" element={<FilmDetails />} />
-
           </Routes>
         </BrowserRouter>
       </main>
