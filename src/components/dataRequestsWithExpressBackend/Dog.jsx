@@ -6,7 +6,7 @@ const Dog = ({name, breed, age}) => {
         <div>
             <p>{`Name: ${name}`}</p>
             <p>{`Breed: ${breed}`}</p>
-            <p>{`age: ${age}`}</p>
+            <p>{`Age: ${age}`}</p>
         </div>
     );
 }
